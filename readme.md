@@ -1,7 +1,7 @@
 # AwesomeAlligator Angular Playground
 
 ## NileMoster. Build Asp DotNet - Angular App
-
+	
 ### NileMoster.WebApi
 
 #### Command tools
@@ -29,5 +29,22 @@
 * config http / https project run
 * dotnet web applications startup configuration (dependency)
 * entity framework MIGRATIONS configuration and gestion files
+* angular bolts & nuts
+* cors theory
 
 #### Visual Studio CODE tools and tricks
+* https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2
+* https://marketplace.visualstudio.com/items?itemName=alexiv.vscode-angular2-files
+* Debuger for Chrome
+
+### NileMoster.SPA
+
+* npm install -g @angular/cli
+* ng new NileMosterSPA
+* ng serve
+* Angular
+	* Angular HttpClientModule. 
+		* http://blog.enriqueoriol.com/2017/11/httpclient-vs-http-angular.html
+		* https://academia-binaria.com/comunicaciones-http-en-Angular/
+		* npm install @angular/common/http
+		* 

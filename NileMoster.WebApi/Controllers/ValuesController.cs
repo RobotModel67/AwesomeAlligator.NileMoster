@@ -34,7 +34,7 @@ namespace AwesomeAlligator.NileMoster.WebApi.Controllers
         {
             //throw new Exception("Error generado en produccion");
             var value = await _context.Values.FirstOrDefaultAsync(x => x.Id == id);
-            if (value == null){
+            if (value == null) {
                 return NotFound();
             }
             return Ok(value);
